@@ -27,7 +27,7 @@ const storage = multer.diskStorage({
     {
         _id:1,
         name: "Beaded JellyFish",
-        image: "bead-jellyfish.jpg",
+        img: "beaded-jellyfish.jpg",
         description: "Create a hanging jellyfish using egg cartons and multicolored beads",
         supplies: [
             "string",

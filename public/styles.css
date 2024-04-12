@@ -63,19 +63,6 @@
     position: relative;
   }
   
-  .spoon {
-    width: 30%;
-    height: 50%;
-    position: absolute;
-    right: 5%;
-    top: 40%;
-    background: url("images/wooden-spoon.png");
-    background-image: url(images/wooden-spoon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-  }
-  
   label {
     display: block;
   }

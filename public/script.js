@@ -197,7 +197,7 @@ const openDialog=(id)=>{
 
 
 showCrafts();
-document.getElementById("craft-element").onsubmit=addeditCraft;
+document.getElementById("craft-form").onsubmit=addeditCraft;
 document.getElementById("add-link").onclick=showCraftForm;
 document.getElementById("add-supply").onclick=addsupply;
 
