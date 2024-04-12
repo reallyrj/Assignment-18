@@ -24,7 +24,7 @@ const showCrafts=async()=>{
     a.append(h3);
 
     const img=document.createElement("img");
-    img.src=craft.img;
+    img.src="images/"+craft.img;
     a.append(img);
 
     a.onclick=(e)=>{
@@ -116,7 +116,7 @@ const addeditCraft=async(e)=>{
     } else {
 
         console.log("in put");
-        response=await fetch(`/ap/recipies/${form._id.value}`,{
+        response=await fetch(`/api/recipies/${form._id.value}`,{
         method:"PUT",
         body:formData    
         });

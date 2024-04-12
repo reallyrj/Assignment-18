@@ -319,7 +319,7 @@ app.post("/api/crafts",upload.single("img"),(req,res)=>{
     const result=validateCraft(req.body);
 
     if (result.error){
-        res.status(400).send(result.eroor.details[0].message);
+        res.status(400).send(result.error.details[0].message);
         return;
     }
 const craft={
