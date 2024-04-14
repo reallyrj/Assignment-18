@@ -36,7 +36,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"2",
+        _id:2,
         name: "Character Bookmarks",
         img: "bookmarks.jpeg",
         description: "Create a little birdy bookmark to always remind you were you were",
@@ -47,7 +47,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"3",
+        _id:3,
         name: "Button Flowers",
         img: "button-flowers.jpeg",
         description: "Create a fun bouquet of flowers with your favorite buttons",
@@ -59,7 +59,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"4",
+        _id:4,
         name: "Cheerio Necklaces",
         img: "cheerio-necklace.webp",
         description: "Create a fun and edible necklace",
@@ -69,7 +69,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"5",
+        _id:5,
         name: "Cotton Ball Cupcakes",
         img: "cotton-ball-cupcakes.webp",
         description: "Decorate your fun filled cupcake however you want.",
@@ -81,7 +81,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"6",
+        _id:6,
         name: "School Themed Mason Jars",
         img: "decorated-jars.jpeg",
         description: "Let's make mason jars to ",
@@ -93,7 +93,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"7",
+        _id:7,
         name: "Egg Carton Flowers",
         img: "egg-carton-flowers.jpg",
         description: "Make a beautiful bouquet with egg cartons and other items you can find around the house",
@@ -106,7 +106,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"8",
+        _id:8,
         name: "Finger Puppets",
         img: "finger-puppets.jpeg",
         description: "These little critters are easy to make, and will entertain your little one while they make a show.",
@@ -117,7 +117,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"9",
+        _id:9,
         name: "Ribbon Flower Headbands",
         img: "flower-headbands.jpg",
         description: "Let your little one show off her new style with these pretty and customizable headbands",
@@ -129,7 +129,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"10",
+        _id:10,
         name: "Hand Print Fish Puppets",
         img: "handprint-fish.jpg",
         description: "We all need to take every opportunity we can to remember those tiny hands, and what better way to do it, then to make fish puppets!",
@@ -141,7 +141,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"11",
+        _id:11,
         name: "Hand Print Tree",
         img: "hand-print-tree.jpeg",
         description: "This is a fun way to get your little one into finger painting.",
@@ -151,7 +151,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"12",
+        _id:12,
         name: "Melted Bead Bowl",
         img: "melted-bead-bowl.jpeg",
         description: "All they need to do is shape their faviorte design, warm it up and they have a brand new bowl.",
@@ -162,7 +162,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"13",
+        _id:13,
         name: "Monster Kites",
         img: "monster-rolls.jpg",
         description: "Let's make those scary toilet paper rolls fly!",
@@ -174,7 +174,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"14",
+        _id:14,
         name: "Pool Noodle Boats",
         img: "noodle-boats.png",
         description: "Let's make a boat that will actually float, due to the floating bottom of a pool noodle.",
@@ -185,7 +185,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"15",
+        _id:15,
         name: "Paper Plate Bees",
         img: "paper-plate-bees.jpeg",
         description: "Let's have fun with making cute little bees, or big bees actually.",
@@ -199,7 +199,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"16",
+        _id:16,
         name: "Paper Plate Dinosaurs",
         img: "paper-plate-dinosaurs.jpg",
         description: "Who would have thought that half a paper plate would be the base of a dinosaur.",
@@ -211,7 +211,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"17",
+        _id:17,
         name: "Porcupine Leafs",
         img: "porcupine-leaf.webp",
         description: "Let's turn an ordinary paper plate into a fun filled mask.",
@@ -223,7 +223,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"18",
+        _id:18,
         name: "Rainbow Cloud",
         img: "rainbow-cloud.webp",
         description: "Some cotton and color and you'll have a beautiful rainbow.",
@@ -234,7 +234,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"19",
+        _id:19,
         name: "Fun Shaped Crayons",
         img: "shaped-crayons.jpg",
         description: "Let's melt some crayons together and let them harden into fun shapes.",
@@ -244,7 +244,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"20",
+        _id:20,
         name: "Straw Farris Wheel",
         img: "straw-faris-wheel.jpg",
         description: "It might be too small to ride, but this farris wheel is the most colorful of all.",
@@ -254,7 +254,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"21",
+        _id:21,
         name: "Sunny String",
         img: "sun-string.jpg",
         description: "Let's practice our fine motor skills while we weave the string into a fun sun.",
@@ -266,7 +266,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"22",
+        _id:22,
         name: "Tissue Ballerinas",
         img: "tisue-dancer.jpeg",
         description: "These beautiful dancers will look great on display",
@@ -277,7 +277,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"23",
+        _id:23,
         name: "Toilet Paper Roll Animals",
         img: "toilet-paper-animals.jpeg",
         description: "These beautiful dancers will look great on display",
@@ -288,7 +288,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"24",
+        _id:24,
         name: "Toilet Paper Butterfly",
         img: "toilet-paper-butterfly.jpg",
         description: "Such a sweat little flyer",
@@ -300,7 +300,7 @@ const storage = multer.diskStorage({
         ],
     },
     {
-        _id:"25",
+        _id:25,
         name: "Valentines Jar",
         img: "valentines-jar.webp",
         description: "So much hearts all in one",
@@ -329,7 +329,7 @@ const craft={
     supplies:req.body.supplies.split(","),
 };
 if(req.file){
-    craft.img="images/"+req.file.filename;
+    craft.img=req.file.filename;
 }
 
 crafts.push(craft);

@@ -72,7 +72,7 @@ spoon.classList.add("spoon");
 craftDetails.append(spoon);
 
 elink.onclick=showCraftForm;
-dlink.onclick=deleteCraft.bind(this,craft);
+dlink.onclick=deleteCraft.bind(this, craft);
 
 populateEditForm(craft);
 };
