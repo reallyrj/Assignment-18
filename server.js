@@ -370,7 +370,7 @@ app.delete("/api/crafts/:id",(req,res)=>{
 const validateCraft=(craft)=>{
     const schema=Joi.object({
         _id: Joi.allow(""),
-        ingredients: Joi.allow(""),
+        supplies: Joi.allow(""),
         name: Joi.string().min(3).required(),
         description: Joi.string().min(3).required(),
     });

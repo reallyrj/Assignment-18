@@ -164,7 +164,7 @@ const deleteCraft=async(craft)=>{
     let response=await fetch(`/api/crafts/${craft._id}`,{
         method:"DELETE",
         headers:{
-        "Content-Type":"application/json;charset=utf=8",
+        "Content-Type":"application/json;charset=utf-8",
         },
     });
 
