@@ -82,7 +82,7 @@ const populateEditForm=(craft)=>{
     form._id.value=craft._id;
     form.name.value=craft.name;
     form.description.value=craft.description;
-    document.getElementById("img-prev").src=craft.img;
+    document.getElementById("img-prev").src="images/"+craft.img;
     //add supplies
     populateSupplies(craft.supplies);
 };
