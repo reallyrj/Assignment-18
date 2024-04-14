@@ -328,8 +328,8 @@ const craft={
     description:req.body.description,
     supplies:req.body.supplies.split(","),
 };
-if (req.file){
-    craft.img="./public/images/"+req.file.filename;
+if(req.file){
+    craft.img="images/"+req.file.filename;
 }
 
 crafts.push(craft);
@@ -351,7 +351,7 @@ app.put("/api/crafts/:id",upload.single("img"),(req,res)=>{
     craft.supplies=req.body.supplies.split(",");
 
     if(req.file){
-        craft.img="./public/images/"+req.file.filename;
+        craft.img= "images/"+req.file.filename;
     }
     res.send(craft);
 });
