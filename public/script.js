@@ -109,14 +109,14 @@ const addeditCraft=async(e)=>{
 
     if(form._id.value.trim()==""){
         console.log("in post");
-        response=await fetch("/api/crafts",{
+        response=await fetch("/api/crafts/",{
             method: "POST",
             body:formData,
         });
     } else {
 
         console.log("in put");
-        response=await fetch(`/api/recipies/${form._id.value}`,{
+        response=await fetch(`/api/crafts/${form._id.value}`,{
         method:"PUT",
         body:formData    
         });
