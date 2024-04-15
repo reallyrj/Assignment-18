@@ -24,7 +24,7 @@ const showCrafts=async()=>{
     a.append(h3);
 
     const img=document.createElement("img");
-    img.src="images/"+craft.img;
+    img.src="images/"+craft.image;
     a.append(img);
 
     a.onclick=(e)=>{
@@ -82,7 +82,7 @@ const populateEditForm=(craft)=>{
     form._id.value=craft._id;
     form.name.value=craft.name;
     form.description.value=craft.description;
-    document.getElementById("img-prev").src="images/"+craft.img;
+    document.getElementById("img-prev").src="images/"+craft.image;
     //add supplies
     populateSupplies(craft.supplies);
 };
